@@ -1,0 +1,12 @@
+<?php /** @var umiTemplaterPHP $this */ ?>
+<?php /** @var array $variables */ ?>
+
+<div>
+	<?= $this->translate( 'payment-redirect-text' ) ?> Fondy
+    <img src="/images/payment/fondy_logo.svg" align="left"/>
+</div>
+
+<div style="margin-top: 20px">
+    <a href="<?= $variables['purchase']['purchasing']['url'] ?>"
+       class="button big"><?= $this->translate( 'pay' ) ?></a>
+</div>
